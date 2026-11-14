@@ -1,0 +1,22 @@
+[
+  {
+    "id": "ago_401",
+    "title": "Kasa Luntian Tagaytay 2BR Sanctuary",
+    "bedrooms": 2,
+    "price_per_night": 4900,
+    "currency": "PHP",
+    "latitude": 14.1245,
+    "longitude": 120.9754,
+    "url": "https://www.agoda.com/kasa-luntian-401"
+  },
+  {
+    "id": "ago_402",
+    "title": "Silang Farm House 2BR (Outside 10km)",
+    "bedrooms": 2,
+    "price_per_night": 3200,
+    "currency": "PHP",
+    "latitude": 14.2312,
+    "longitude": 120.9789,
+    "url": "https://www.agoda.com/silang-farm-402"
+  }
+]

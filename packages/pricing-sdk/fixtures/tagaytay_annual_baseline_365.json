@@ -1,0 +1,2557 @@
+[
+  {
+    "date": "2026-01-01",
+    "horizon": "PEAK",
+    "season": "HOLIDAY_CHRISTMAS_NEW_YEAR",
+    "notes": "Peak Year-End Holidays",
+    "baseline_iqm": 7000
+  },
+  {
+    "date": "2026-01-02",
+    "horizon": "PEAK",
+    "season": "HOLIDAY_CHRISTMAS_NEW_YEAR",
+    "notes": "Peak Year-End Holidays",
+    "baseline_iqm": 7000
+  },
+  {
+    "date": "2026-01-03",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-01-04",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-01-05",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-01-06",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-01-07",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-01-08",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-01-09",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-01-10",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-01-11",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-01-12",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-01-13",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-01-14",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-01-15",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-01-16",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-01-17",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-01-18",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-01-19",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-01-20",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-01-21",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-01-22",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-01-23",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-01-24",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-01-25",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-01-26",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-01-27",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-01-28",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-01-29",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-01-30",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-01-31",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-02-01",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-02-02",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-02-03",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-02-04",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-02-05",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-02-06",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-02-07",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-02-08",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-02-09",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-02-10",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-02-11",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-02-12",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-02-13",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-02-14",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-02-15",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-02-16",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-02-17",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-02-18",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-02-19",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-02-20",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-02-21",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-02-22",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-02-23",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-02-24",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-02-25",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-02-26",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-02-27",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-02-28",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-03-01",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-03-02",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-03-03",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-03-04",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-03-05",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-03-06",
+    "horizon": "WEEKEND",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 4800
+  },
+  {
+    "date": "2026-03-07",
+    "horizon": "WEEKEND",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 4800
+  },
+  {
+    "date": "2026-03-08",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-03-09",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-03-10",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-03-11",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-03-12",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-03-13",
+    "horizon": "WEEKEND",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 4800
+  },
+  {
+    "date": "2026-03-14",
+    "horizon": "WEEKEND",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 4800
+  },
+  {
+    "date": "2026-03-15",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-03-16",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-03-17",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-03-18",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-03-19",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-03-20",
+    "horizon": "WEEKEND",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 4800
+  },
+  {
+    "date": "2026-03-21",
+    "horizon": "WEEKEND",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 4800
+  },
+  {
+    "date": "2026-03-22",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-03-23",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-03-24",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-03-25",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-03-26",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-03-27",
+    "horizon": "WEEKEND",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 4800
+  },
+  {
+    "date": "2026-03-28",
+    "horizon": "WEEKEND",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 4800
+  },
+  {
+    "date": "2026-03-29",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-03-30",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-03-31",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-04-01",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-04-02",
+    "horizon": "PEAK",
+    "season": "HOLIDAY_HOLY_WEEK",
+    "notes": "Holy Week Peak (Maundy Thursday to Easter)",
+    "baseline_iqm": 7500
+  },
+  {
+    "date": "2026-04-03",
+    "horizon": "PEAK",
+    "season": "HOLIDAY_HOLY_WEEK",
+    "notes": "Holy Week Peak (Maundy Thursday to Easter)",
+    "baseline_iqm": 7500
+  },
+  {
+    "date": "2026-04-04",
+    "horizon": "PEAK",
+    "season": "HOLIDAY_HOLY_WEEK",
+    "notes": "Holy Week Peak (Maundy Thursday to Easter)",
+    "baseline_iqm": 7500
+  },
+  {
+    "date": "2026-04-05",
+    "horizon": "PEAK",
+    "season": "HOLIDAY_HOLY_WEEK",
+    "notes": "Holy Week Peak (Maundy Thursday to Easter)",
+    "baseline_iqm": 7500
+  },
+  {
+    "date": "2026-04-06",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-04-07",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-04-08",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-04-09",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-04-10",
+    "horizon": "WEEKEND",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 4800
+  },
+  {
+    "date": "2026-04-11",
+    "horizon": "WEEKEND",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 4800
+  },
+  {
+    "date": "2026-04-12",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-04-13",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-04-14",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-04-15",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-04-16",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-04-17",
+    "horizon": "WEEKEND",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 4800
+  },
+  {
+    "date": "2026-04-18",
+    "horizon": "WEEKEND",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 4800
+  },
+  {
+    "date": "2026-04-19",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-04-20",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-04-21",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-04-22",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-04-23",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-04-24",
+    "horizon": "WEEKEND",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 4800
+  },
+  {
+    "date": "2026-04-25",
+    "horizon": "WEEKEND",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 4800
+  },
+  {
+    "date": "2026-04-26",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-04-27",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-04-28",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-04-29",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-04-30",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-05-01",
+    "horizon": "WEEKEND",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 4800
+  },
+  {
+    "date": "2026-05-02",
+    "horizon": "WEEKEND",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 4800
+  },
+  {
+    "date": "2026-05-03",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-05-04",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-05-05",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-05-06",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-05-07",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-05-08",
+    "horizon": "WEEKEND",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 4800
+  },
+  {
+    "date": "2026-05-09",
+    "horizon": "WEEKEND",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 4800
+  },
+  {
+    "date": "2026-05-10",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-05-11",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-05-12",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-05-13",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-05-14",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-05-15",
+    "horizon": "WEEKEND",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 4800
+  },
+  {
+    "date": "2026-05-16",
+    "horizon": "WEEKEND",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 4800
+  },
+  {
+    "date": "2026-05-17",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-05-18",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-05-19",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-05-20",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-05-21",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-05-22",
+    "horizon": "WEEKEND",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 4800
+  },
+  {
+    "date": "2026-05-23",
+    "horizon": "WEEKEND",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 4800
+  },
+  {
+    "date": "2026-05-24",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-05-25",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-05-26",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-05-27",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-05-28",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-05-29",
+    "horizon": "WEEKEND",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 4800
+  },
+  {
+    "date": "2026-05-30",
+    "horizon": "WEEKEND",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 4800
+  },
+  {
+    "date": "2026-05-31",
+    "horizon": "WEEKDAY",
+    "season": "SUMMER_HIGH",
+    "notes": "Summer Season (Tagaytay cool breeze escape)",
+    "baseline_iqm": 3800
+  },
+  {
+    "date": "2026-06-01",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-06-02",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-06-03",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-06-04",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-06-05",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-06-06",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-06-07",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-06-08",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-06-09",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-06-10",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-06-11",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-06-12",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-06-13",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-06-14",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-06-15",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-06-16",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-06-17",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-06-18",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-06-19",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-06-20",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-06-21",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-06-22",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-06-23",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-06-24",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-06-25",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-06-26",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-06-27",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-06-28",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-06-29",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-06-30",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-07-01",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-07-02",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-07-03",
+    "horizon": "WEEKEND",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-07-04",
+    "horizon": "WEEKEND",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-07-05",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-07-06",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-07-07",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-07-08",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-07-09",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-07-10",
+    "horizon": "WEEKEND",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-07-11",
+    "horizon": "WEEKEND",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-07-12",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-07-13",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-07-14",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-07-15",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-07-16",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-07-17",
+    "horizon": "WEEKEND",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-07-18",
+    "horizon": "WEEKEND",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-07-19",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-07-20",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-07-21",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-07-22",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-07-23",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-07-24",
+    "horizon": "WEEKEND",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-07-25",
+    "horizon": "WEEKEND",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-07-26",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-07-27",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-07-28",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-07-29",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-07-30",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-07-31",
+    "horizon": "WEEKEND",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-08-01",
+    "horizon": "WEEKEND",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-08-02",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-08-03",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-08-04",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-08-05",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-08-06",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-08-07",
+    "horizon": "WEEKEND",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-08-08",
+    "horizon": "WEEKEND",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-08-09",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-08-10",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-08-11",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-08-12",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-08-13",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-08-14",
+    "horizon": "WEEKEND",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-08-15",
+    "horizon": "WEEKEND",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-08-16",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-08-17",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-08-18",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-08-19",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-08-20",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-08-21",
+    "horizon": "WEEKEND",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-08-22",
+    "horizon": "WEEKEND",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-08-23",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-08-24",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-08-25",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-08-26",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-08-27",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-08-28",
+    "horizon": "WEEKEND",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-08-29",
+    "horizon": "WEEKEND",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-08-30",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-08-31",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-09-01",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-09-02",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-09-03",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-09-04",
+    "horizon": "WEEKEND",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-09-05",
+    "horizon": "WEEKEND",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-09-06",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-09-07",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-09-08",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-09-09",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-09-10",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-09-11",
+    "horizon": "WEEKEND",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-09-12",
+    "horizon": "WEEKEND",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-09-13",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-09-14",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-09-15",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-09-16",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-09-17",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-09-18",
+    "horizon": "WEEKEND",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-09-19",
+    "horizon": "WEEKEND",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-09-20",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-09-21",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-09-22",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-09-23",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-09-24",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-09-25",
+    "horizon": "WEEKEND",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-09-26",
+    "horizon": "WEEKEND",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-09-27",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-09-28",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-09-29",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-09-30",
+    "horizon": "WEEKDAY",
+    "season": "RAINY_LOW",
+    "notes": "Monsoon Season (Tagaytay cozy staycation)",
+    "baseline_iqm": 3200
+  },
+  {
+    "date": "2026-10-01",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-10-02",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-10-03",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-10-04",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-10-05",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-10-06",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-10-07",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-10-08",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-10-09",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-10-10",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-10-11",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-10-12",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-10-13",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-10-14",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-10-15",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-10-16",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-10-17",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-10-18",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-10-19",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-10-20",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-10-21",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-10-22",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-10-23",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-10-24",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-10-25",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-10-26",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-10-27",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-10-28",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-10-29",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-10-30",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-10-31",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-11-01",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-11-02",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-11-03",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-11-04",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-11-05",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-11-06",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-11-07",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-11-08",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-11-09",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-11-10",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-11-11",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-11-12",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-11-13",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-11-14",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-11-15",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-11-16",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-11-17",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-11-18",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-11-19",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-11-20",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-11-21",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-11-22",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-11-23",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-11-24",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-11-25",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-11-26",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-11-27",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-11-28",
+    "horizon": "WEEKEND",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 4500
+  },
+  {
+    "date": "2026-11-29",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-11-30",
+    "horizon": "WEEKDAY",
+    "season": "REGULAR",
+    "notes": "Regular Tagaytay staycation demand",
+    "baseline_iqm": 3500
+  },
+  {
+    "date": "2026-12-01",
+    "horizon": "WEEKDAY",
+    "season": "DECEMBER_HOLIDAY",
+    "notes": "December pre-holiday celebrations",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-12-02",
+    "horizon": "WEEKDAY",
+    "season": "DECEMBER_HOLIDAY",
+    "notes": "December pre-holiday celebrations",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-12-03",
+    "horizon": "WEEKDAY",
+    "season": "DECEMBER_HOLIDAY",
+    "notes": "December pre-holiday celebrations",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-12-04",
+    "horizon": "WEEKEND",
+    "season": "DECEMBER_HOLIDAY",
+    "notes": "December pre-holiday celebrations",
+    "baseline_iqm": 5500
+  },
+  {
+    "date": "2026-12-05",
+    "horizon": "WEEKEND",
+    "season": "DECEMBER_HOLIDAY",
+    "notes": "December pre-holiday celebrations",
+    "baseline_iqm": 5500
+  },
+  {
+    "date": "2026-12-06",
+    "horizon": "WEEKDAY",
+    "season": "DECEMBER_HOLIDAY",
+    "notes": "December pre-holiday celebrations",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-12-07",
+    "horizon": "WEEKDAY",
+    "season": "DECEMBER_HOLIDAY",
+    "notes": "December pre-holiday celebrations",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-12-08",
+    "horizon": "WEEKDAY",
+    "season": "DECEMBER_HOLIDAY",
+    "notes": "December pre-holiday celebrations",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-12-09",
+    "horizon": "WEEKDAY",
+    "season": "DECEMBER_HOLIDAY",
+    "notes": "December pre-holiday celebrations",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-12-10",
+    "horizon": "WEEKDAY",
+    "season": "DECEMBER_HOLIDAY",
+    "notes": "December pre-holiday celebrations",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-12-11",
+    "horizon": "WEEKEND",
+    "season": "DECEMBER_HOLIDAY",
+    "notes": "December pre-holiday celebrations",
+    "baseline_iqm": 5500
+  },
+  {
+    "date": "2026-12-12",
+    "horizon": "WEEKEND",
+    "season": "DECEMBER_HOLIDAY",
+    "notes": "December pre-holiday celebrations",
+    "baseline_iqm": 5500
+  },
+  {
+    "date": "2026-12-13",
+    "horizon": "WEEKDAY",
+    "season": "DECEMBER_HOLIDAY",
+    "notes": "December pre-holiday celebrations",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-12-14",
+    "horizon": "WEEKDAY",
+    "season": "DECEMBER_HOLIDAY",
+    "notes": "December pre-holiday celebrations",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-12-15",
+    "horizon": "WEEKDAY",
+    "season": "DECEMBER_HOLIDAY",
+    "notes": "December pre-holiday celebrations",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-12-16",
+    "horizon": "WEEKDAY",
+    "season": "DECEMBER_HOLIDAY",
+    "notes": "December pre-holiday celebrations",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-12-17",
+    "horizon": "WEEKDAY",
+    "season": "DECEMBER_HOLIDAY",
+    "notes": "December pre-holiday celebrations",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-12-18",
+    "horizon": "WEEKEND",
+    "season": "DECEMBER_HOLIDAY",
+    "notes": "December pre-holiday celebrations",
+    "baseline_iqm": 5500
+  },
+  {
+    "date": "2026-12-19",
+    "horizon": "WEEKEND",
+    "season": "DECEMBER_HOLIDAY",
+    "notes": "December pre-holiday celebrations",
+    "baseline_iqm": 5500
+  },
+  {
+    "date": "2026-12-20",
+    "horizon": "WEEKDAY",
+    "season": "DECEMBER_HOLIDAY",
+    "notes": "December pre-holiday celebrations",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-12-21",
+    "horizon": "WEEKDAY",
+    "season": "DECEMBER_HOLIDAY",
+    "notes": "December pre-holiday celebrations",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-12-22",
+    "horizon": "WEEKDAY",
+    "season": "DECEMBER_HOLIDAY",
+    "notes": "December pre-holiday celebrations",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-12-23",
+    "horizon": "WEEKDAY",
+    "season": "DECEMBER_HOLIDAY",
+    "notes": "December pre-holiday celebrations",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-12-24",
+    "horizon": "PEAK",
+    "season": "HOLIDAY_CHRISTMAS_NEW_YEAR",
+    "notes": "Peak Year-End Holidays",
+    "baseline_iqm": 7000
+  },
+  {
+    "date": "2026-12-25",
+    "horizon": "PEAK",
+    "season": "HOLIDAY_CHRISTMAS_NEW_YEAR",
+    "notes": "Peak Year-End Holidays",
+    "baseline_iqm": 7000
+  },
+  {
+    "date": "2026-12-26",
+    "horizon": "WEEKEND",
+    "season": "DECEMBER_HOLIDAY",
+    "notes": "December pre-holiday celebrations",
+    "baseline_iqm": 5500
+  },
+  {
+    "date": "2026-12-27",
+    "horizon": "WEEKDAY",
+    "season": "DECEMBER_HOLIDAY",
+    "notes": "December pre-holiday celebrations",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-12-28",
+    "horizon": "WEEKDAY",
+    "season": "DECEMBER_HOLIDAY",
+    "notes": "December pre-holiday celebrations",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-12-29",
+    "horizon": "WEEKDAY",
+    "season": "DECEMBER_HOLIDAY",
+    "notes": "December pre-holiday celebrations",
+    "baseline_iqm": 4200
+  },
+  {
+    "date": "2026-12-30",
+    "horizon": "PEAK",
+    "season": "HOLIDAY_CHRISTMAS_NEW_YEAR",
+    "notes": "Peak Year-End Holidays",
+    "baseline_iqm": 7000
+  },
+  {
+    "date": "2026-12-31",
+    "horizon": "PEAK",
+    "season": "HOLIDAY_CHRISTMAS_NEW_YEAR",
+    "notes": "Peak Year-End Holidays",
+    "baseline_iqm": 7000
+  }
+]

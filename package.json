@@ -1,0 +1,24 @@
+{
+  "name": "418-serin-tagaytay-dynamic-pricing",
+  "version": "1.0.0",
+  "description": "Production-grade Dynamic Competitor Pricing CLI & Dual SDK (Node.js ESM + Python) for Unit 418 Serin East Tagaytay",
+  "type": "module",
+  "main": "packages/pricing-sdk/src/index.js",
+  "bin": {
+    "condo-price": "./bin/condo-price.js"
+  },
+  "scripts": {
+    "test": "node --test test/unit/*.test.js",
+    "test:unit": "node --test test/unit/*.test.js",
+    "test:python": "PYTHONPATH=./packages/pricing-sdk/python python3 -m unittest discover -s test/python -p 'test_*.py' -v"
+  },
+  "keywords": [
+    "tagaytay",
+    "staycation",
+    "dynamic-pricing",
+    "serin-east",
+    "sqlite"
+  ],
+  "author": "Jeff Ureta",
+  "license": "MIT"
+}

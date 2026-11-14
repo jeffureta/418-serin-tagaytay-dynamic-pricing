@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bkg_301",
+    "title": "Tagaytay Prime Residences 2BR Suite",
+    "bedrooms": 2,
+    "price_per_night": 4600,
+    "currency": "PHP",
+    "latitude": 14.1168,
+    "longitude": 120.9635,
+    "url": "https://www.booking.com/hotel/ph/tagaytay-prime-301.html"
+  },
+  {
+    "id": "bkg_302",
+    "title": "Crosswinds Tagaytay Swiss Villa 2BR",
+    "bedrooms": 2,
+    "price_per_night": 5800,
+    "currency": "PHP",
+    "latitude": 14.1438,
+    "longitude": 121.0360,
+    "url": "https://www.booking.com/hotel/ph/crosswinds-302.html"
+  }
+]

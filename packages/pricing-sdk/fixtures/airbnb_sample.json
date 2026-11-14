@@ -1,0 +1,42 @@
+[
+  {
+    "id": "abnb_201",
+    "title": "Serin East Tagaytay Tower 1 Cozy 2BR Suite",
+    "bedrooms": 2,
+    "price_per_night": 4500,
+    "currency": "PHP",
+    "latitude": 14.1152,
+    "longitude": 120.9621,
+    "url": "https://www.airbnb.com/rooms/201"
+  },
+  {
+    "id": "abnb_202",
+    "title": "Wind Residences 2BR with Taal Lake View",
+    "bedrooms": 2,
+    "price_per_night": 4200,
+    "currency": "PHP",
+    "latitude": 14.0989,
+    "longitude": 120.9458,
+    "url": "https://www.airbnb.com/rooms/202"
+  },
+  {
+    "id": "abnb_203",
+    "title": "Studio at Cityland Tagaytay Prime (1BR)",
+    "bedrooms": 1,
+    "price_per_night": 1800,
+    "currency": "PHP",
+    "latitude": 14.1165,
+    "longitude": 120.9632,
+    "url": "https://www.airbnb.com/rooms/203"
+  },
+  {
+    "id": "abnb_204",
+    "title": "Makati Luxury 2BR Penthouse (Outside Tagaytay)",
+    "bedrooms": 2,
+    "price_per_night": 9500,
+    "currency": "PHP",
+    "latitude": 14.5547,
+    "longitude": 121.0244,
+    "url": "https://www.airbnb.com/rooms/204"
+  }
+]
