@@ -10,7 +10,7 @@ Usage: condo-price <command> [options]
 
 Commands:
   pull            Scrape competitor listings from OTAs (Airbnb, Booking.com, Agoda)
-  benchmark       Compute recommended dynamic price for a specific date
+  benchmark       Compute recommended dynamic price for a specific date or stay range
   seed-annual     Seed 365-day annual empirical research baseline rates
   annual          Retrieve annual baseline rate for a specific date
   guardrails      View or update pricing guardrails (floor, ceiling)
@@ -20,6 +20,9 @@ Options:
   --help, -h      Show help
   --json          Output results as JSON
   --date          Target date (YYYY-MM-DD)
+  --from          Check-in date for stay quote (YYYY-MM-DD)
+  --to            Check-out date for stay quote (YYYY-MM-DD)
+  --as-of         Simulation/as-of reference date (YYYY-MM-DD)
   --mode          'fixture' or 'live' (default: fixture)
   --set-floor     Update floor price (default: 2800)
   --set-ceiling   Update ceiling price (default: 8500)
@@ -73,23 +76,54 @@ async function main() {
       }
 
       case 'benchmark': {
+        const fromDate = getFlagValue('--from');
+        const toDate = getFlagValue('--to');
+        const asOfDate = getFlagValue('--as-of');
+
+        if (fromDate && toDate) {
+          const stayQuote = client.getStayQuote({
+            checkInDate: fromDate,
+            checkOutDate: toDate,
+            asOfDate
+          });
+
+          if (isJson) {
+            console.log(JSON.stringify(stayQuote, null, 2));
+          } else {
+            console.log(`\n======================================================`);
+            console.log(`Unit 418 Serin East Dynamic Stay Quote (${stayQuote.check_in_date} to ${stayQuote.check_out_date})`);
+            console.log(`======================================================`);
+            console.log(`Nights:            ${stayQuote.nights}`);
+            console.log(`Average Nightly:   ₱${stayQuote.average_nightly_rate.toLocaleString()}`);
+            console.log(`STAY SUBTOTAL:     ₱${stayQuote.stay_subtotal.toLocaleString()}`);
+            console.log(`------------------------------------------------------`);
+            console.log(`Daily Breakdown:`);
+            for (const b of stayQuote.breakdown) {
+              console.log(`  ${b.date} [${b.horizon.padEnd(7)}] IQM: ₱${b.raw_iqm} | Mult: ${b.horizon_multiplier}x | Lead: ${b.lead_factor}x -> ₱${b.recommended_price.toLocaleString()}`);
+            }
+            console.log(`======================================================\n`);
+          }
+          break;
+        }
+
         const date = getFlagValue('--date') || new Date().toISOString().slice(0, 10);
-        const quote = client.getRecommendedPrice({ date });
+        const quote = client.getRecommendedPrice({ date, asOfDate });
         if (isJson) {
           console.log(JSON.stringify(quote, null, 2));
         } else {
           console.log(`\n======================================================`);
           console.log(`Unit 418 Serin East Dynamic Benchmark (${quote.date})`);
           console.log(`======================================================`);
-          console.log(`Horizon:           ${quote.horizon}`);
+          console.log(`Horizon:           ${quote.horizon} (Season: ${quote.season || 'REGULAR'})`);
           console.log(`Source:            ${quote.source}`);
           console.log(`Scraped Listings:  ${quote.listing_count}`);
-          console.log(`Raw Market IQM:    ₱${quote.raw_iqm.toLocaleString()}`);
+          console.log(`Base Market IQM:   ₱${quote.raw_iqm.toLocaleString()}`);
+          console.log(`RMS Multipliers:   Horizon: ${quote.horizon_multiplier}x | Lead Factor: ${quote.lead_factor}x`);
           console.log(`RECOMMENDED PRICE: ₱${quote.recommended_price.toLocaleString()}`);
           if (quote.clamped) {
             console.log(`Guardrail Notice:  Clamped to ${quote.clamped} (Floor: ₱${quote.guardrails.floor_price} | Ceiling: ₱${quote.guardrails.ceiling_price})`);
           }
-          console.log(`Discount/Undercut: None (Pure Market Benchmark)`);
+          console.log(`Discount/Undercut: None (Pure Market Benchmark & RMS)`);
           console.log(`======================================================\n`);
         }
         break;
@@ -167,6 +201,6 @@ async function main() {
 }
 
 main().catch(err => {
-  console.error('Error executing condo-price:', err);
+  console.error('Fatal CLI Error:', err);
   process.exit(1);
 });

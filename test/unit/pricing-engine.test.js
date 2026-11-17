@@ -43,7 +43,7 @@ test('calculateIQM eliminates outer 25% extremes', () => {
 test('computeRecommendedPrice has ZERO discounts/undercuts and strictly clamps to guardrails', () => {
   const guardrails = { floor_price: 2800, ceiling_price: 8500 };
 
-  // 1. Normal market price: IQM 4500 -> recommended is strictly 4500 (NO -500 undercut)
+  // 1. Normal market price on a regular weekday: IQM 4500 (lead factor 1.0) -> recommended 4500
   const res1 = computeRecommendedPrice({
     listings: [
       { price_per_night: 4200 },
@@ -52,7 +52,8 @@ test('computeRecommendedPrice has ZERO discounts/undercuts and strictly clamps t
       { price_per_night: 4800 }
     ],
     guardrails,
-    date: '2026-11-20'
+    date: '2026-11-18',
+    asOfDate: '2026-11-01'
   });
   assert.equal(res1.recommended_price, 4500);
   assert.equal(res1.source, 'scraped_iqm');
