@@ -15,6 +15,12 @@ TAGAYTAY_PEAK_DATES = {
     "12-08", "12-24", "12-25", "12-30", "12-31"
 }
 
+HORIZON_MULTIPLIERS = {
+    "PEAK": 1.65,
+    "WEEKEND": 1.25,
+    "WEEKDAY": 1.00
+}
+
 def haversine_distance_km(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
     if lat1 == lat2 and lon1 == lon2:
         return 0.0
@@ -35,6 +41,23 @@ def detect_horizon(date_str: str) -> str:
     if dt.weekday() in (4, 5):
         return "WEEKEND"
     return "WEEKDAY"
+
+def calculate_lead_time_factor(target_date_str: str, as_of_date_str: Optional[str] = None) -> float:
+    if as_of_date_str:
+        as_of = datetime.fromisoformat(f"{as_of_date_str}T00:00:00+00:00")
+    else:
+        as_of = datetime.now(timezone.utc)
+    target = datetime.fromisoformat(f"{target_date_str}T00:00:00+00:00")
+    lead_days = math.ceil((target - as_of).total_seconds() / 86400.0)
+
+    if lead_days > 45:
+        return 1.10
+    elif lead_days >= 15:
+        return 1.00
+    elif lead_days >= 7:
+        return 0.97
+    else:
+        return 0.95
 
 def calculate_iqm(prices: List[float]) -> float:
     if not prices:
@@ -80,6 +103,27 @@ class CondoPricingClient:
                 scraped_at TEXT NOT NULL
             );
         """)
+        cursor.execute("CREATE INDEX IF NOT EXISTS idx_listings_scraped_at ON listings(scraped_at);")
+        cursor.execute("CREATE INDEX IF NOT EXISTS idx_listings_distance ON listings(distance_km);")
+
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS daily_aggregates (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                date TEXT NOT NULL,
+                platform TEXT NOT NULL,
+                horizon TEXT NOT NULL,
+                listing_count INTEGER NOT NULL,
+                average_price REAL NOT NULL,
+                median_price REAL NOT NULL,
+                iqm_price REAL NOT NULL,
+                recommended_price REAL NOT NULL,
+                search_center TEXT NOT NULL,
+                radius_km REAL NOT NULL,
+                UNIQUE(date, platform)
+            );
+        """)
+        cursor.execute("CREATE INDEX IF NOT EXISTS idx_aggregates_date ON daily_aggregates(date);")
+
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS pricing_guardrails (
                 id INTEGER PRIMARY KEY CHECK (id = 1),
@@ -88,6 +132,7 @@ class CondoPricingClient:
                 updated_at TEXT NOT NULL
             );
         """)
+
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS annual_baseline_rates (
                 date TEXT PRIMARY KEY,
@@ -98,23 +143,22 @@ class CondoPricingClient:
                 created_at TEXT NOT NULL
             );
         """)
-        # Ensure default guardrails
+        cursor.execute("CREATE INDEX IF NOT EXISTS idx_annual_baseline_date ON annual_baseline_rates(date);")
+
         cursor.execute("SELECT id FROM pricing_guardrails WHERE id = 1")
         if not cursor.fetchone():
             now = datetime.now(timezone.utc).isoformat()
-            cursor.execute(
-                "INSERT INTO pricing_guardrails (id, floor_price, ceiling_price, updated_at) VALUES (1, 2800.0, 8500.0, ?)",
-                (now,)
-            )
+            cursor.execute("""
+                INSERT INTO pricing_guardrails (id, floor_price, ceiling_price, updated_at)
+                VALUES (1, 2800.0, 8500.0, ?)
+            """, (now,))
         self.conn.commit()
 
     def get_guardrails(self) -> Dict[str, Any]:
         cursor = self.conn.cursor()
         cursor.execute("SELECT floor_price, ceiling_price, updated_at FROM pricing_guardrails WHERE id = 1")
         row = cursor.fetchone()
-        if row:
-            return {"floor_price": row["floor_price"], "ceiling_price": row["ceiling_price"], "updated_at": row["updated_at"]}
-        return {"floor_price": 2800.0, "ceiling_price": 8500.0}
+        return dict(row) if row else {"floor_price": 2800.0, "ceiling_price": 8500.0, "updated_at": ""}
 
     def update_guardrails(self, floor_price: Optional[float] = None, ceiling_price: Optional[float] = None) -> Dict[str, Any]:
         curr = self.get_guardrails()
@@ -168,9 +212,11 @@ class CondoPricingClient:
         row = cursor.fetchone()
         return dict(row) if row else None
 
-    def get_recommended_price(self, date: Optional[str] = None) -> Dict[str, Any]:
+    def get_recommended_price(self, date: Optional[str] = None, as_of_date: Optional[str] = None) -> Dict[str, Any]:
         target_date = date or datetime.now(timezone.utc).strftime("%Y-%m-%d")
         horizon = detect_horizon(target_date)
+        horizon_multiplier = HORIZON_MULTIPLIERS.get(horizon, 1.00)
+        lead_factor = calculate_lead_time_factor(target_date, as_of_date)
         guardrails = self.get_guardrails()
 
         cursor = self.conn.cursor()
@@ -178,33 +224,85 @@ class CondoPricingClient:
         rows = cursor.fetchall()
         prices = [r["price_per_night"] for r in rows if r["price_per_night"] > 0]
 
+        unmultiplied_annual = False
+        season = "REGULAR"
+
         if prices:
-            raw_iqm = calculate_iqm(prices)
+            base_iqm = calculate_iqm(prices)
             source = "scraped_iqm"
         else:
             baseline = self.get_annual_baseline(target_date)
             if baseline:
-                raw_iqm = baseline["baseline_iqm"]
+                base_iqm = baseline["baseline_iqm"]
                 source = "annual_baseline"
+                unmultiplied_annual = True
+                season = baseline.get("season", "REGULAR")
             else:
-                raw_iqm = 6000.0 if horizon == "PEAK" else (4500.0 if horizon == "WEEKEND" else 3500.0)
+                base_iqm = 6000.0 if horizon == "PEAK" else (4500.0 if horizon == "WEEKEND" else 3500.0)
                 source = "horizon_default"
+                unmultiplied_annual = True
+
+        if unmultiplied_annual:
+            raw_price = round(base_iqm * lead_factor)
+        else:
+            raw_price = round(base_iqm * horizon_multiplier * lead_factor)
 
         # Clamping strictly with ZERO undercuts and ZERO discounts
         floor = guardrails["floor_price"]
         ceiling = guardrails["ceiling_price"]
-        final_price = max(floor, min(raw_iqm, ceiling))
-        clamped = "floor" if raw_iqm < floor else ("ceiling" if raw_iqm > ceiling else None)
+
+        effective_floor = floor
+        if horizon == "PEAK":
+            effective_floor = max(floor, 6000.0)
+        elif horizon == "WEEKEND":
+            effective_floor = max(floor, 4000.0)
+
+        final_price = max(effective_floor, min(float(raw_price), ceiling))
+        clamped = "floor" if raw_price < effective_floor else ("ceiling" if raw_price > ceiling else None)
 
         return {
             "date": target_date,
             "horizon": horizon,
-            "raw_iqm": raw_iqm,
+            "season": season,
+            "raw_iqm": base_iqm,
+            "horizon_multiplier": horizon_multiplier,
+            "lead_factor": lead_factor,
             "recommended_price": final_price,
             "clamped": clamped,
             "source": source,
             "listing_count": len(prices),
-            "guardrails": {"floor_price": floor, "ceiling_price": ceiling}
+            "guardrails": {
+                "floor_price": floor,
+                "ceiling_price": ceiling,
+                "effective_floor": effective_floor
+            }
+        }
+
+    def get_stay_quote(self, check_in_date: str, check_out_date: str, as_of_date: Optional[str] = None) -> Dict[str, Any]:
+        d1 = datetime.fromisoformat(f"{check_in_date}T00:00:00+00:00")
+        d2 = datetime.fromisoformat(f"{check_out_date}T00:00:00+00:00")
+
+        if d2 <= d1:
+            raise ValueError("check_out_date must be after check_in_date.")
+
+        breakdown = []
+        curr = d1
+        subtotal = 0.0
+
+        while curr < d2:
+            date_str = curr.strftime("%Y-%m-%d")
+            quote = self.get_recommended_price(date=date_str, as_of_date=as_of_date)
+            breakdown.append(quote)
+            subtotal += quote["recommended_price"]
+            curr = curr.replace(day=curr.day + 1) if curr.day < 28 else datetime.fromtimestamp(curr.timestamp() + 86400, timezone.utc)
+
+        return {
+            "check_in_date": check_in_date,
+            "check_out_date": check_out_date,
+            "nights": len(breakdown),
+            "stay_subtotal": subtotal,
+            "average_nightly_rate": round(subtotal / len(breakdown), 2),
+            "breakdown": breakdown
         }
 
     def close(self):

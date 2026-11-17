@@ -2,7 +2,15 @@ import { readFileSync, existsSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { DatabaseManager } from '../../shared-core/src/db.js';
-import { computeRecommendedPrice, detectHorizon, calculateIQM, calculateMedian } from '../../shared-core/src/pricing-engine.js';
+import {
+  computeRecommendedPrice,
+  detectHorizon,
+  calculateLeadTimeFactor,
+  calculateIQM,
+  calculateMedian,
+  HORIZON_MULTIPLIERS,
+  TAGAYTAY_PEAK_DATES
+} from '../../shared-core/src/pricing-engine.js';
 import { AirbnbScraper } from './scrapers/airbnb.js';
 import { BookingScraper } from './scrapers/booking.js';
 import { AgodaScraper } from './scrapers/agoda.js';
@@ -73,7 +81,7 @@ export class CondoPricingClient {
     return this.db.getListings({ maxDistanceKm, bedrooms, source });
   }
 
-  getRecommendedPrice({ date, horizon = null }) {
+  getRecommendedPrice({ date, asOfDate = null, horizon = null }) {
     const effectiveDate = date || new Date().toISOString().slice(0, 10);
     const guardrails = this.getGuardrails();
     const annualBaseline = this.getAnnualBaseline(effectiveDate);
@@ -83,6 +91,7 @@ export class CondoPricingClient {
       listings,
       guardrails,
       date: effectiveDate,
+      asOfDate,
       annualBaseline
     });
 
@@ -93,7 +102,51 @@ export class CondoPricingClient {
     return calculation;
   }
 
+  getStayQuote({ checkInDate, checkOutDate, asOfDate = null }) {
+    if (!checkInDate || !checkOutDate) {
+      throw new Error('Both checkInDate and checkOutDate are required.');
+    }
+
+    const start = new Date(checkInDate + 'T00:00:00Z');
+    const end = new Date(checkOutDate + 'T00:00:00Z');
+
+    if (end <= start) {
+      throw new Error('checkOutDate must be after checkInDate.');
+    }
+
+    const breakdown = [];
+    let current = new Date(start);
+    let subtotal = 0;
+
+    while (current < end) {
+      const dateStr = current.toISOString().slice(0, 10);
+      const quote = this.getRecommendedPrice({ date: dateStr, asOfDate });
+      breakdown.push(quote);
+      subtotal += quote.recommended_price;
+      current.setUTCDate(current.getUTCDate() + 1);
+    }
+
+    return {
+      check_in_date: checkInDate,
+      check_out_date: checkOutDate,
+      nights: breakdown.length,
+      stay_subtotal: subtotal,
+      average_nightly_rate: Math.round(subtotal / breakdown.length),
+      breakdown
+    };
+  }
+
   close() {
     this.db.close();
   }
 }
+
+export {
+  computeRecommendedPrice,
+  detectHorizon,
+  calculateLeadTimeFactor,
+  calculateIQM,
+  calculateMedian,
+  HORIZON_MULTIPLIERS,
+  TAGAYTAY_PEAK_DATES
+};
